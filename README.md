@@ -541,7 +541,7 @@ class ClayAPI:
         self.mock_mode = mock_mode or not self.api_key
         
         if self.mock_mode:
-            logger.info("🎭 Running in MOCK MODE")
+            logger.info(" Running in MOCK MODE")
 ```
 
 If no API key → automatically use mock mode.
@@ -676,99 +676,6 @@ scoring:
     custom_score: 0.20  # Add new weight
 ```
 
----
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-#### 1. Import Errors
-
-```
-ModuleNotFoundError: No module named 'langgraph'
-```
-
-**Solution**:
-```bash
-pip install -r requirements.txt
-```
-
-#### 2. API Key Not Found
-
-```
-⚠ GEMINI_API_KEY not found, using mock mode
-```
-
-**Solution**: Add API key to `.env` file
-
-#### 3. Workflow Validation Failed
-
-```
-ValidationError: Step 'enrichment' references non-existent step
-```
-
-**Solution**: Check `workflow.json` for typos in step IDs
-
-#### 4. Google Sheets Authentication Failed
-
-```
-Failed to initialize Google Sheets: credentials.json not found
-```
-
-**Solution**:
-1. Create Google Cloud project
-2. Enable Google Sheets API
-3. Download credentials JSON
-4. Save as `credentials.json` in project root
-
-### Debug Mode
-
-Enable detailed logging:
-
-```bash
-# In .env
-LOG_LEVEL=DEBUG
-```
-
-View logs:
-```bash
-tail -f logs/workflow_YYYYMMDD.log
-```
-
-### Getting Help
-
-- Check logs in `logs/` directory
-- Review `workflow.json` for syntax errors
-- Verify API keys in `.env`
-- Run with `--max-leads 5` for faster testing
-
----
-
-##  Demo Video
-
-[**Watch the 5-minute walkthrough**](link-to-your-video)
-
-**What's covered:**
-- System architecture overview
-- Step-by-step workflow execution
-- Mock mode demonstration
-- Key design decisions
-- Extension points
-
----
-
-## Performance Metrics
-
-| Metric | Manual Process | AI Agent System |
-|--------|---------------|-----------------|
-| Lead Discovery | 2-3 hours | 2-3 minutes |
-| Data Enrichment | 1 hour | 5 minutes |
-| Email Writing | 30 min per email | 10 emails/minute |
-| Tracking | Manual spreadsheets | Automatic |
-| Optimization | Ad-hoc | Continuous AI analysis |
-
----
-
 ## Security Notes
 
 -  **Never commit `.env` file** to version control
@@ -776,43 +683,6 @@ tail -f logs/workflow_YYYYMMDD.log
 -  Use environment variables for all sensitive data
 -  Review generated emails before sending (especially in production)
 -  Implement rate limiting to avoid spam detection
-
----
-
-##  Roadmap
-
-- [ ] Add email A/B testing
-- [ ] Implement multi-channel outreach (LinkedIn, Twitter)
-- [ ] Add CRM integration (Salesforce, HubSpot)
-- [ ] Build web UI for workflow management
-- [ ] Add webhook support for real-time notifications
-- [ ] Implement human-in-the-loop approval workflow
-
----
-
-##  Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Submit a pull request
-
----
-
-##  License
-
-MIT License - see LICENSE file for details
-
----
-
-##  Acknowledgments
-
-- **LangGraph** - Stateful agent orchestration
-- **Google Gemini** - AI content generation
-- **Pydantic** - Data validation
-- **ColorLog** - Beautiful logging
 
 ---
 
