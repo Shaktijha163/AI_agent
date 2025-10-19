@@ -1,0 +1,3787 @@
+{
+  "workflow_name": "OutboundLeadGeneration",
+  "execution_id": "exec_20251019_234819",
+  "prospect_search": {
+    "leads": [
+      {
+        "company": "TechCorp 1",
+        "company_domain": "techcorp1.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp1.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 300,
+        "revenue": 60000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 1",
+        "company_domain": "techcorp1.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp1.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_size": 300,
+        "revenue": 60000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 1",
+        "company_domain": "techcorp1.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp1.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 300,
+        "revenue": 60000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 2",
+        "company_domain": "techcorp2.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp2.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 350,
+        "revenue": 70000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 2",
+        "company_domain": "techcorp2.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp2.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_size": 350,
+        "revenue": 70000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 2",
+        "company_domain": "techcorp2.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp2.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 350,
+        "revenue": 70000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 3",
+        "company_domain": "techcorp3.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp3.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 400,
+        "revenue": 80000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 3",
+        "company_domain": "techcorp3.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp3.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_size": 400,
+        "revenue": 80000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 3",
+        "company_domain": "techcorp3.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp3.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 400,
+        "revenue": 80000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 4",
+        "company_domain": "techcorp4.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp4.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 450,
+        "revenue": 90000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 4",
+        "company_domain": "techcorp4.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp4.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_size": 450,
+        "revenue": 90000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 4",
+        "company_domain": "techcorp4.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp4.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 450,
+        "revenue": 90000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 5",
+        "company_domain": "techcorp5.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp5.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 500,
+        "revenue": 100000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 5",
+        "company_domain": "techcorp5.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp5.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_size": 500,
+        "revenue": 100000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 5",
+        "company_domain": "techcorp5.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp5.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 500,
+        "revenue": 100000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 6",
+        "company_domain": "techcorp6.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp6.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 550,
+        "revenue": 110000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 6",
+        "company_domain": "techcorp6.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp6.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_size": 550,
+        "revenue": 110000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 6",
+        "company_domain": "techcorp6.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp6.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 550,
+        "revenue": 110000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 7",
+        "company_domain": "techcorp7.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp7.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 600,
+        "revenue": 120000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 7",
+        "company_domain": "techcorp7.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp7.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_size": 600,
+        "revenue": 120000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 7",
+        "company_domain": "techcorp7.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp7.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 600,
+        "revenue": 120000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 8",
+        "company_domain": "techcorp8.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp8.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 650,
+        "revenue": 130000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 8",
+        "company_domain": "techcorp8.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp8.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_size": 650,
+        "revenue": 130000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 8",
+        "company_domain": "techcorp8.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp8.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 650,
+        "revenue": 130000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 9",
+        "company_domain": "techcorp9.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp9.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 700,
+        "revenue": 140000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 9",
+        "company_domain": "techcorp9.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp9.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_size": 700,
+        "revenue": 140000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 9",
+        "company_domain": "techcorp9.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp9.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_size": 700,
+        "revenue": 140000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 10",
+        "company_domain": "techcorp10.com",
+        "contact_name": "John Doe1",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe1",
+        "email": "john.doe1@techcorp10.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 750,
+        "revenue": 150000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 10",
+        "company_domain": "techcorp10.com",
+        "contact_name": "John Doe2",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe2",
+        "email": "john.doe2@techcorp10.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_size": 750,
+        "revenue": 150000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "TechCorp 10",
+        "company_domain": "techcorp10.com",
+        "contact_name": "John Doe3",
+        "contact_first_name": "John",
+        "contact_last_name": "Doe3",
+        "email": "john.doe3@techcorp10.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_size": 750,
+        "revenue": 150000000,
+        "industry": "SaaS",
+        "location": "San Francisco, CA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "total_found": 30,
+    "companies_searched": 10,
+    "search_timestamp": "2025-10-19T23:48:20.031278",
+    "icp_criteria": {
+      "industry": [
+        "SaaS",
+        "Technology",
+        "FinTech"
+      ],
+      "location": [
+        "USA",
+        "UK",
+        "Canada"
+      ],
+      "employee_count": {
+        "min": 100,
+        "max": 1000
+      },
+      "revenue": {
+        "min": 20000000,
+        "max": 200000000
+      }
+    },
+    "signals_used": [
+      "recent_funding",
+      "hiring_for_sales",
+      "rapid_growth"
+    ],
+    "_metadata": {
+      "agent_name": "ProspectSearchAgent",
+      "agent_id": "graph_prospect_search",
+      "execution_time": 0.006577014923095703,
+      "timestamp": "2025-10-19T23:48:20.031306",
+      "success": true
+    }
+  },
+  "enrichment": {
+    "enriched_leads": [
+      {
+        "company": "TechCorp 1",
+        "company_domain": "techcorp1.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp1.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp1 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp1",
+          "twitter": "techcorp1",
+          "facebook": "techcorp1"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 1",
+        "company_domain": "techcorp1.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp1.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp1 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp1",
+          "twitter": "techcorp1",
+          "facebook": "techcorp1"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 1",
+        "company_domain": "techcorp1.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp1.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp1 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp1",
+          "twitter": "techcorp1",
+          "facebook": "techcorp1"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 2",
+        "company_domain": "techcorp2.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp2.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp2 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp2",
+          "twitter": "techcorp2",
+          "facebook": "techcorp2"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 2",
+        "company_domain": "techcorp2.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp2.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_description": "Techcorp2 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp2",
+          "twitter": "techcorp2",
+          "facebook": "techcorp2"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 2",
+        "company_domain": "techcorp2.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp2.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp2 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp2",
+          "twitter": "techcorp2",
+          "facebook": "techcorp2"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 3",
+        "company_domain": "techcorp3.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp3.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp3 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp3",
+          "twitter": "techcorp3",
+          "facebook": "techcorp3"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 3",
+        "company_domain": "techcorp3.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp3.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp3 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp3",
+          "twitter": "techcorp3",
+          "facebook": "techcorp3"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 3",
+        "company_domain": "techcorp3.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp3.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp3 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp3",
+          "twitter": "techcorp3",
+          "facebook": "techcorp3"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 4",
+        "company_domain": "techcorp4.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp4.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp4 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp4",
+          "twitter": "techcorp4",
+          "facebook": "techcorp4"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 4",
+        "company_domain": "techcorp4.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp4.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_description": "Techcorp4 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp4",
+          "twitter": "techcorp4",
+          "facebook": "techcorp4"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 4",
+        "company_domain": "techcorp4.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp4.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp4 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp4",
+          "twitter": "techcorp4",
+          "facebook": "techcorp4"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 5",
+        "company_domain": "techcorp5.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp5.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp5 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp5",
+          "twitter": "techcorp5",
+          "facebook": "techcorp5"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 5",
+        "company_domain": "techcorp5.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp5.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp5 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp5",
+          "twitter": "techcorp5",
+          "facebook": "techcorp5"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 5",
+        "company_domain": "techcorp5.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp5.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp5 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp5",
+          "twitter": "techcorp5",
+          "facebook": "techcorp5"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 6",
+        "company_domain": "techcorp6.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp6.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp6 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp6",
+          "twitter": "techcorp6",
+          "facebook": "techcorp6"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 6",
+        "company_domain": "techcorp6.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp6.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_description": "Techcorp6 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp6",
+          "twitter": "techcorp6",
+          "facebook": "techcorp6"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 6",
+        "company_domain": "techcorp6.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp6.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp6 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp6",
+          "twitter": "techcorp6",
+          "facebook": "techcorp6"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 7",
+        "company_domain": "techcorp7.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp7.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp7 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp7",
+          "twitter": "techcorp7",
+          "facebook": "techcorp7"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 7",
+        "company_domain": "techcorp7.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp7.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp7 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp7",
+          "twitter": "techcorp7",
+          "facebook": "techcorp7"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 7",
+        "company_domain": "techcorp7.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp7.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp7 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp7",
+          "twitter": "techcorp7",
+          "facebook": "techcorp7"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 8",
+        "company_domain": "techcorp8.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp8.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp8 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp8",
+          "twitter": "techcorp8",
+          "facebook": "techcorp8"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 8",
+        "company_domain": "techcorp8.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp8.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_description": "Techcorp8 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp8",
+          "twitter": "techcorp8",
+          "facebook": "techcorp8"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 8",
+        "company_domain": "techcorp8.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp8.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp8 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp8",
+          "twitter": "techcorp8",
+          "facebook": "techcorp8"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 9",
+        "company_domain": "techcorp9.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp9.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp9 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp9",
+          "twitter": "techcorp9",
+          "facebook": "techcorp9"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 9",
+        "company_domain": "techcorp9.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp9.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp9 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp9",
+          "twitter": "techcorp9",
+          "facebook": "techcorp9"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 9",
+        "company_domain": "techcorp9.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp9.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "hiring_for_sales",
+        "company_description": "Techcorp9 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp9",
+          "twitter": "techcorp9",
+          "facebook": "techcorp9"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 10",
+        "company_domain": "techcorp10.com",
+        "contact": "John Doe1",
+        "email": "john.doe1@techcorp10.com",
+        "linkedin": "https://linkedin.com/in/johndoe1",
+        "phone": "+1 (555) 101-1001",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp10 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp10",
+          "twitter": "techcorp10",
+          "facebook": "techcorp10"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 10",
+        "company_domain": "techcorp10.com",
+        "contact": "John Doe2",
+        "email": "john.doe2@techcorp10.com",
+        "linkedin": "https://linkedin.com/in/johndoe2",
+        "phone": "+1 (555) 102-1002",
+        "title": "VP of Sales",
+        "signal": "recent_funding",
+        "company_description": "Techcorp10 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp10",
+          "twitter": "techcorp10",
+          "facebook": "techcorp10"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      },
+      {
+        "company": "TechCorp 10",
+        "company_domain": "techcorp10.com",
+        "contact": "John Doe3",
+        "email": "john.doe3@techcorp10.com",
+        "linkedin": "https://linkedin.com/in/johndoe3",
+        "phone": "+1 (555) 103-1003",
+        "title": "Head of Marketing",
+        "signal": "recent_funding",
+        "company_description": "Techcorp10 is a leading technology company specializing in innovative solutions.",
+        "company_industry": "Technology",
+        "company_employees": 450,
+        "company_revenue": 75000000,
+        "company_founded": 2015,
+        "company_location": "San Francisco, CA, USA",
+        "technologies": [
+          "Python",
+          "React",
+          "AWS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "social_profiles": {
+          "linkedin": "company/techcorp10",
+          "twitter": "techcorp10",
+          "facebook": "techcorp10"
+        },
+        "role": "VP of Sales",
+        "seniority": "executive",
+        "person_location": "San Francisco, CA, USA",
+        "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+        "recent_news": [],
+        "enrichment_source": "clearbit",
+        "enrichment_quality": "high"
+      }
+    ],
+    "total_enriched": 30,
+    "successful_enrichments": 30,
+    "enrichment_rate": 1.0,
+    "enrichment_timestamp": "2025-10-19T23:48:20.071435",
+    "_metadata": {
+      "agent_name": "DataEnrichmentAgent",
+      "agent_id": "graph_enrichment",
+      "execution_time": 0.030712366104125977,
+      "timestamp": "2025-10-19T23:48:20.071456",
+      "success": true
+    }
+  },
+  "scoring": {
+    "ranked_leads": [
+      {
+        "lead": {
+          "company": "TechCorp 2",
+          "company_domain": "techcorp2.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp2.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp2 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp2",
+            "twitter": "techcorp2",
+            "facebook": "techcorp2"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 1
+      },
+      {
+        "lead": {
+          "company": "TechCorp 2",
+          "company_domain": "techcorp2.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp2.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "recent_funding",
+          "company_description": "Techcorp2 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp2",
+            "twitter": "techcorp2",
+            "facebook": "techcorp2"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 2
+      },
+      {
+        "lead": {
+          "company": "TechCorp 2",
+          "company_domain": "techcorp2.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp2.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp2 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp2",
+            "twitter": "techcorp2",
+            "facebook": "techcorp2"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 3
+      },
+      {
+        "lead": {
+          "company": "TechCorp 4",
+          "company_domain": "techcorp4.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp4.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp4 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp4",
+            "twitter": "techcorp4",
+            "facebook": "techcorp4"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 4
+      },
+      {
+        "lead": {
+          "company": "TechCorp 4",
+          "company_domain": "techcorp4.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp4.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "recent_funding",
+          "company_description": "Techcorp4 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp4",
+            "twitter": "techcorp4",
+            "facebook": "techcorp4"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 5
+      },
+      {
+        "lead": {
+          "company": "TechCorp 4",
+          "company_domain": "techcorp4.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp4.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp4 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp4",
+            "twitter": "techcorp4",
+            "facebook": "techcorp4"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 6
+      },
+      {
+        "lead": {
+          "company": "TechCorp 6",
+          "company_domain": "techcorp6.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp6.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp6 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp6",
+            "twitter": "techcorp6",
+            "facebook": "techcorp6"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 7
+      },
+      {
+        "lead": {
+          "company": "TechCorp 6",
+          "company_domain": "techcorp6.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp6.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "recent_funding",
+          "company_description": "Techcorp6 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp6",
+            "twitter": "techcorp6",
+            "facebook": "techcorp6"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 8
+      },
+      {
+        "lead": {
+          "company": "TechCorp 6",
+          "company_domain": "techcorp6.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp6.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp6 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp6",
+            "twitter": "techcorp6",
+            "facebook": "techcorp6"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 9
+      },
+      {
+        "lead": {
+          "company": "TechCorp 8",
+          "company_domain": "techcorp8.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp8.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp8 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp8",
+            "twitter": "techcorp8",
+            "facebook": "techcorp8"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 10
+      },
+      {
+        "lead": {
+          "company": "TechCorp 8",
+          "company_domain": "techcorp8.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp8.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "recent_funding",
+          "company_description": "Techcorp8 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp8",
+            "twitter": "techcorp8",
+            "facebook": "techcorp8"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 11
+      },
+      {
+        "lead": {
+          "company": "TechCorp 8",
+          "company_domain": "techcorp8.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp8.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp8 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp8",
+            "twitter": "techcorp8",
+            "facebook": "techcorp8"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 12
+      },
+      {
+        "lead": {
+          "company": "TechCorp 10",
+          "company_domain": "techcorp10.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp10.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp10 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp10",
+            "twitter": "techcorp10",
+            "facebook": "techcorp10"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 13
+      },
+      {
+        "lead": {
+          "company": "TechCorp 10",
+          "company_domain": "techcorp10.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp10.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "recent_funding",
+          "company_description": "Techcorp10 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp10",
+            "twitter": "techcorp10",
+            "facebook": "techcorp10"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 14
+      },
+      {
+        "lead": {
+          "company": "TechCorp 10",
+          "company_domain": "techcorp10.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp10.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "recent_funding",
+          "company_description": "Techcorp10 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp10",
+            "twitter": "techcorp10",
+            "facebook": "techcorp10"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.8,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 1.0,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 15
+      },
+      {
+        "lead": {
+          "company": "TechCorp 1",
+          "company_domain": "techcorp1.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp1.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp1 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp1",
+            "twitter": "techcorp1",
+            "facebook": "techcorp1"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 16
+      },
+      {
+        "lead": {
+          "company": "TechCorp 1",
+          "company_domain": "techcorp1.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp1.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp1 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp1",
+            "twitter": "techcorp1",
+            "facebook": "techcorp1"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 17
+      },
+      {
+        "lead": {
+          "company": "TechCorp 1",
+          "company_domain": "techcorp1.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp1.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp1 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp1",
+            "twitter": "techcorp1",
+            "facebook": "techcorp1"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 18
+      },
+      {
+        "lead": {
+          "company": "TechCorp 3",
+          "company_domain": "techcorp3.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp3.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp3 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp3",
+            "twitter": "techcorp3",
+            "facebook": "techcorp3"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 19
+      },
+      {
+        "lead": {
+          "company": "TechCorp 3",
+          "company_domain": "techcorp3.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp3.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp3 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp3",
+            "twitter": "techcorp3",
+            "facebook": "techcorp3"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 20
+      },
+      {
+        "lead": {
+          "company": "TechCorp 3",
+          "company_domain": "techcorp3.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp3.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp3 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp3",
+            "twitter": "techcorp3",
+            "facebook": "techcorp3"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 21
+      },
+      {
+        "lead": {
+          "company": "TechCorp 5",
+          "company_domain": "techcorp5.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp5.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp5 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp5",
+            "twitter": "techcorp5",
+            "facebook": "techcorp5"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 22
+      },
+      {
+        "lead": {
+          "company": "TechCorp 5",
+          "company_domain": "techcorp5.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp5.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp5 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp5",
+            "twitter": "techcorp5",
+            "facebook": "techcorp5"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 23
+      },
+      {
+        "lead": {
+          "company": "TechCorp 5",
+          "company_domain": "techcorp5.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp5.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp5 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp5",
+            "twitter": "techcorp5",
+            "facebook": "techcorp5"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 24
+      },
+      {
+        "lead": {
+          "company": "TechCorp 7",
+          "company_domain": "techcorp7.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp7.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp7 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp7",
+            "twitter": "techcorp7",
+            "facebook": "techcorp7"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 25
+      },
+      {
+        "lead": {
+          "company": "TechCorp 7",
+          "company_domain": "techcorp7.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp7.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp7 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp7",
+            "twitter": "techcorp7",
+            "facebook": "techcorp7"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 26
+      },
+      {
+        "lead": {
+          "company": "TechCorp 7",
+          "company_domain": "techcorp7.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp7.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp7 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp7",
+            "twitter": "techcorp7",
+            "facebook": "techcorp7"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 27
+      },
+      {
+        "lead": {
+          "company": "TechCorp 9",
+          "company_domain": "techcorp9.com",
+          "contact": "John Doe1",
+          "email": "john.doe1@techcorp9.com",
+          "linkedin": "https://linkedin.com/in/johndoe1",
+          "phone": "+1 (555) 101-1001",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp9 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp9",
+            "twitter": "techcorp9",
+            "facebook": "techcorp9"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 28
+      },
+      {
+        "lead": {
+          "company": "TechCorp 9",
+          "company_domain": "techcorp9.com",
+          "contact": "John Doe2",
+          "email": "john.doe2@techcorp9.com",
+          "linkedin": "https://linkedin.com/in/johndoe2",
+          "phone": "+1 (555) 102-1002",
+          "title": "VP of Sales",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp9 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp9",
+            "twitter": "techcorp9",
+            "facebook": "techcorp9"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 29
+      },
+      {
+        "lead": {
+          "company": "TechCorp 9",
+          "company_domain": "techcorp9.com",
+          "contact": "John Doe3",
+          "email": "john.doe3@techcorp9.com",
+          "linkedin": "https://linkedin.com/in/johndoe3",
+          "phone": "+1 (555) 103-1003",
+          "title": "Head of Marketing",
+          "signal": "hiring_for_sales",
+          "company_description": "Techcorp9 is a leading technology company specializing in innovative solutions.",
+          "company_industry": "Technology",
+          "company_employees": 450,
+          "company_revenue": 75000000,
+          "company_founded": 2015,
+          "company_location": "San Francisco, CA, USA",
+          "technologies": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL",
+            "Redis"
+          ],
+          "social_profiles": {
+            "linkedin": "company/techcorp9",
+            "twitter": "techcorp9",
+            "facebook": "techcorp9"
+          },
+          "role": "VP of Sales",
+          "seniority": "executive",
+          "person_location": "San Francisco, CA, USA",
+          "person_bio": "John is an experienced sales leader with expertise in B2B SaaS.",
+          "recent_news": [],
+          "enrichment_source": "clearbit",
+          "enrichment_quality": "high"
+        },
+        "score": 0.75,
+        "score_breakdown": {
+          "icp_fit": 1.0,
+          "growth_signals": 0.8,
+          "engagement_potential": 1.0,
+          "company_size_score": 1.0
+        },
+        "meets_threshold": true,
+        "rank": 30
+      }
+    ],
+    "total_scored": 30,
+    "qualified_leads": 30,
+    "avg_score": 0.775,
+    "min_score": 0.75,
+    "max_score": 0.8,
+    "scoring_timestamp": "2025-10-19T23:48:20.091617",
+    "scoring_criteria": {
+      "weights": {
+        "industry_match": 0.25,
+        "company_size": 0.2,
+        "revenue_range": 0.2,
+        "growth_signals": 0.25,
+        "technology_stack": 0.1
+      },
+      "min_score_threshold": 0.6,
+      "high_priority_threshold": 0.8
+    },
+    "_metadata": {
+      "agent_name": "ScoringAgent",
+      "agent_id": "graph_scoring",
+      "execution_time": 0.013167381286621094,
+      "timestamp": "2025-10-19T23:48:20.091648",
+      "success": true
+    }
+  },
+  "outreach_content": {
+    "messages": [
+      {
+        "lead_id": "TechCorp 2_1",
+        "lead_name": "John Doe1",
+        "lead_email": "john.doe1@techcorp2.com",
+        "company": "TechCorp 2",
+        "lead_score": 0.8,
+        "subject_line": "John, TechCorp 2's Growth & Sales Efficiency",
+        "email_body": "Hi John Doe1,\n\nHuge congratulations on TechCorp 2's recent funding announcement! That's fantastic news and a clear indicator of your team's incredible momentum.\n\nWith this exciting",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 2_2",
+        "lead_name": "John Doe2",
+        "lead_email": "john.doe2@techcorp2.com",
+        "company": "TechCorp 2",
+        "lead_score": 0.8,
+        "subject_line": "Quick question about TechCorp 2's workflow",
+        "email_body": "Hi John Doe2,\n\nI noticed TechCorp 2's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 2_3",
+        "lead_name": "John Doe3",
+        "lead_email": "john.doe3@techcorp2.com",
+        "company": "TechCorp 2",
+        "lead_score": 0.8,
+        "subject_line": "Quick question about TechCorp 2's workflow",
+        "email_body": "Hi John Doe3,\n\nI noticed TechCorp 2's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 4_4",
+        "lead_name": "John Doe1",
+        "lead_email": "john.doe1@techcorp4.com",
+        "company": "TechCorp 4",
+        "lead_score": 0.8,
+        "subject_line": "Quick question about TechCorp 4's workflow",
+        "email_body": "Hi John Doe1,\n\nI noticed TechCorp 4's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 4_5",
+        "lead_name": "John Doe2",
+        "lead_email": "john.doe2@techcorp4.com",
+        "company": "TechCorp 4",
+        "lead_score": 0.8,
+        "subject_line": "Quick question about TechCorp 4's workflow",
+        "email_body": "Hi John Doe2,\n\nI noticed TechCorp 4's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 4_6",
+        "lead_name": "John Doe3",
+        "lead_email": "john.doe3@techcorp4.com",
+        "company": "TechCorp 4",
+        "lead_score": 0.8,
+        "subject_line": "AI for TechCorp 4's next chapter, John?",
+        "email_body": "Hi John,\n\nCongratulations on TechCorp 4's recent funding! That's fantastic news and a clear sign of exciting growth ahead for your team.\n\nAs",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 6_8",
+        "lead_name": "John Doe2",
+        "lead_email": "john.doe2@techcorp6.com",
+        "company": "TechCorp 6",
+        "lead_score": 0.8,
+        "subject_line": "John, Enhancing TechCorp 6's Sales Momentum Post-Funding",
+        "email_body": "Hi John,\n\nCongratulations on TechCorp 6's recent funding announcement! That's fantastic news for driving your next phase of growth. As VP of Sales, I imagine you're focused on maximizing this investment and ensuring your team's productivity scales efficiently.\n\nOur platform helps sales organizations like yours achieve this through **AI-powered workflow automation**, freeing up your team from manual tasks to focus on selling. Imagine significantly reducing admin time and accelerating deal cycles.\n\nWould you be open to a brief 15-minute chat next week to explore how this could specifically benefit TechCorp 6?\n\nBest,\n\n[Your Name",
+        "personalization_score": 0.7,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 6_9",
+        "lead_name": "John Doe3",
+        "lead_email": "john.doe3@techcorp6.com",
+        "company": "TechCorp 6",
+        "lead_score": 0.8,
+        "subject_line": "John, TechCorp 6's funding & AI efficiency",
+        "email_body": "Hi John,\n\nHuge congratulations on TechCorp 6's recent funding! That's fantastic news and a testament to your team's hard work. It sounds like an exciting time for growth and scaling initiatives.\n\nAs you navigate this next phase, many VPs of Sales find themselves looking for ways to maximize efficiency and empower their teams without adding headcount. We help companies like TechCorp 6 achieve exactly that with our AI-powered workflow automation.\n\nOur platform is designed to streamline sales operations, allowing your team to focus",
+        "personalization_score": 0.7,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 8_10",
+        "lead_name": "John Doe1",
+        "lead_email": "john.doe1@techcorp8.com",
+        "company": "TechCorp 8",
+        "lead_score": 0.8,
+        "subject_line": "Quick question about TechCorp 8's workflow",
+        "email_body": "Hi John Doe1,\n\nI noticed TechCorp 8's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 8_11",
+        "lead_name": "John Doe2",
+        "lead_email": "john.doe2@techcorp8.com",
+        "company": "TechCorp 8",
+        "lead_score": 0.8,
+        "subject_line": "John, Congrats on Funding! Sales Workflow Idea",
+        "email_body": "Hi John,\n\nHuge congrats on TechCorp 8's recent funding! That's fantastic news and a real",
+        "personalization_score": 0.7,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 8_12",
+        "lead_name": "John Doe3",
+        "lead_email": "john.doe3@techcorp8.com",
+        "company": "TechCorp 8",
+        "lead_score": 0.8,
+        "subject_line": "Quick question about TechCorp 8's workflow",
+        "email_body": "Hi John Doe3,\n\nI noticed TechCorp 8's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 10_13",
+        "lead_name": "John Doe1",
+        "lead_email": "john.doe1@techcorp10.com",
+        "company": "TechCorp 10",
+        "lead_score": 0.8,
+        "subject_line": "Idea for TechCorp 10's Sales Growth, John",
+        "email_body": "Hi John,\n\nCongrats on TechCorp 10's recent funding announcement! That's fantastic news and speaks volumes about your team's momentum.\n\nWith this exciting growth, I imagine optimizing your sales processes to maximize that investment",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 10_14",
+        "lead_name": "John Doe2",
+        "lead_email": "john.doe2@techcorp10.com",
+        "company": "TechCorp 10",
+        "lead_score": 0.8,
+        "subject_line": "TechCorp 10's Funding + Sales Growth, John",
+        "email_body": "Hi John,\n\nHuge congrats on TechCorp 10'",
+        "personalization_score": 0.7,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 10_15",
+        "lead_name": "John Doe3",
+        "lead_email": "john.doe3@techcorp10.com",
+        "company": "TechCorp 10",
+        "lead_score": 0.8,
+        "subject_line": "Quick question about TechCorp 10's workflow",
+        "email_body": "Hi John Doe3,\n\nI noticed TechCorp 10's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.85,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 1_16",
+        "lead_name": "John Doe1",
+        "lead_email": "john.doe1@techcorp1.com",
+        "company": "TechCorp 1",
+        "lead_score": 0.75,
+        "subject_line": "Scaling TechCorp 1 Sales: AI Workflow Automation",
+        "email_body": "Hi John,\n\nHope you're having a productive week at TechCorp 1.\n\nI noticed your team is actively expanding, which is a fantastic sign of growth! Bringing on new sales talent is exciting, but I imagine it also brings a focus on ensuring quick ramp-up and maximizing productivity across the board.\n\nOur platform offers AI-powered workflow automation specifically designed for sales leaders like you. We help streamline repetitive tasks, improve data accuracy, and ultimately enable your reps to spend more time selling \u2013 getting new hires productive faster and amplifying the impact of your entire team.\n\nWould you be open to a brief 15-minute chat next week to explore how we might support TechCorp 1's ambitious growth plans?",
+        "personalization_score": 0.7,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 1_17",
+        "lead_name": "John Doe2",
+        "lead_email": "john.doe2@techcorp1.com",
+        "company": "TechCorp 1",
+        "lead_score": 0.75,
+        "subject_line": "John, Scaling Sales at TechCorp 1?",
+        "email_body": "Hi John,\n\nSaw TechCorp 1 is really expanding, especially with the recent sales team hiring \u2013 exciting times!\n\nScaling a sales team effectively can bring its own challenges, ensuring everyone's productive and processes are streamlined. I'm reaching out because we help VPs like you empower their growing teams with **AI-powered workflow automation**. This means your reps can spend less time on manual tasks and more time actually selling.\n\nIt's designed to boost efficiency and ensure your new hires hit the ground running.\n\nWould you be open to a quick 15-minute chat next week to explore how this could specifically benefit TechCorp 1?",
+        "personalization_score": 0.7,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 1_18",
+        "lead_name": "John Doe3",
+        "lead_email": "john.doe3@techcorp1.com",
+        "company": "TechCorp 1",
+        "lead_score": 0.75,
+        "subject_line": "John, a thought on your sales hiring",
+        "email_body": "Hi John,\n\nNoticed TechCorp 1 is really investing in sales growth by hiring for new sales roles \u2013 that's exciting to see!\n\nAs you scale your team, ensuring everyone operates efficiently and new reps ramp quickly becomes crucial. This is exactly where **AI-powered workflow automation** can make a significant impact. It helps streamline repetitive tasks, freeing up your team to focus on selling and making sure every new hire contributes faster.\n\nI'm curious to hear your thoughts on how TechCorp 1 currently optimizes its sales workflows. Would you be open to a brief 15-minute chat to explore how we could support your growth?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.7,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 3_19",
+        "lead_name": "John Doe1",
+        "lead_email": "john.doe1@techcorp3.com",
+        "company": "TechCorp 3",
+        "lead_score": 0.75,
+        "subject_line": "Quick question about TechCorp 3's workflow",
+        "email_body": "Hi John Doe1,\n\nI noticed TechCorp 3's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.65,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      },
+      {
+        "lead_id": "TechCorp 3_20",
+        "lead_name": "John Doe2",
+        "lead_email": "john.doe2@techcorp3.com",
+        "company": "TechCorp 3",
+        "lead_score": 0.75,
+        "subject_line": "Quick question about TechCorp 3's workflow",
+        "email_body": "Hi John Doe2,\n\nI noticed TechCorp 3's recent growth and thought you might be interested in AI-powered workflow automation.\n\nWould you be open to a quick 15-minute chat next week to explore if this could help your team?\n\nBest,\n[Your Name]",
+        "personalization_score": 0.65,
+        "tone": "friendly_professional",
+        "persona": "SDR"
+      }
+    ],
+    "total_generated": 19,
+    "successful_generations": 19,
+    "failed_generations": 1,
+    "avg_personalization_score": 0.774,
+    "generation_timestamp": "2025-10-19T23:50:56.012728",
+    "generation_config": {
+      "persona": "SDR",
+      "tone": "friendly_professional",
+      "value_proposition": "AI-powered workflow automation"
+    },
+    "_metadata": {
+      "agent_name": "OutreachContentAgent",
+      "agent_id": "graph_content",
+      "execution_time": 155.91274404525757,
+      "timestamp": "2025-10-19T23:50:56.012756",
+      "success": true
+    }
+  },
+  "send": {
+    "campaign_id": "camp_20251019_235056_412a5ee6",
+    "sent_status": [
+      {
+        "lead_id": "TechCorp 2_1",
+        "lead_name": "John Doe1",
+        "email": "john.doe1@techcorp2.com",
+        "company": "TechCorp 2",
+        "subject": "John, TechCorp 2's Growth & Sales Efficiency",
+        "status": "sent",
+        "message_id": "mock_msg_1760898056_1919",
+        "sent_at": "2025-10-19 23:50:56",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 2_2",
+        "lead_name": "John Doe2",
+        "email": "john.doe2@techcorp2.com",
+        "company": "TechCorp 2",
+        "subject": "Quick question about TechCorp 2's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898056_8039",
+        "sent_at": "2025-10-19 23:50:56",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 2_3",
+        "lead_name": "John Doe3",
+        "email": "john.doe3@techcorp2.com",
+        "company": "TechCorp 2",
+        "subject": "Quick question about TechCorp 2's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898056_6049",
+        "sent_at": "2025-10-19 23:50:56",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 4_4",
+        "lead_name": "John Doe1",
+        "email": "john.doe1@techcorp4.com",
+        "company": "TechCorp 4",
+        "subject": "Quick question about TechCorp 4's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898056_2463",
+        "sent_at": "2025-10-19 23:50:56",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 4_5",
+        "lead_name": "John Doe2",
+        "email": "john.doe2@techcorp4.com",
+        "company": "TechCorp 4",
+        "subject": "Quick question about TechCorp 4's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898057_6765",
+        "sent_at": "2025-10-19 23:50:57",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 4_6",
+        "lead_name": "John Doe3",
+        "email": "john.doe3@techcorp4.com",
+        "company": "TechCorp 4",
+        "subject": "AI for TechCorp 4's next chapter, John?",
+        "status": "sent",
+        "message_id": "mock_msg_1760898057_9518",
+        "sent_at": "2025-10-19 23:50:57",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 6_8",
+        "lead_name": "John Doe2",
+        "email": "john.doe2@techcorp6.com",
+        "company": "TechCorp 6",
+        "subject": "John, Enhancing TechCorp 6's Sales Momentum Post-Funding",
+        "status": "sent",
+        "message_id": "mock_msg_1760898057_781",
+        "sent_at": "2025-10-19 23:50:57",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 6_9",
+        "lead_name": "John Doe3",
+        "email": "john.doe3@techcorp6.com",
+        "company": "TechCorp 6",
+        "subject": "John, TechCorp 6's funding & AI efficiency",
+        "status": "sent",
+        "message_id": "mock_msg_1760898058_1063",
+        "sent_at": "2025-10-19 23:50:58",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 8_10",
+        "lead_name": "John Doe1",
+        "email": "john.doe1@techcorp8.com",
+        "company": "TechCorp 8",
+        "subject": "Quick question about TechCorp 8's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898058_8296",
+        "sent_at": "2025-10-19 23:50:58",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 8_11",
+        "lead_name": "John Doe2",
+        "email": "john.doe2@techcorp8.com",
+        "company": "TechCorp 8",
+        "subject": "John, Congrats on Funding! Sales Workflow Idea",
+        "status": "sent",
+        "message_id": "mock_msg_1760898058_8485",
+        "sent_at": "2025-10-19 23:50:58",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 8_12",
+        "lead_name": "John Doe3",
+        "email": "john.doe3@techcorp8.com",
+        "company": "TechCorp 8",
+        "subject": "Quick question about TechCorp 8's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898059_1476",
+        "sent_at": "2025-10-19 23:50:59",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 10_13",
+        "lead_name": "John Doe1",
+        "email": "john.doe1@techcorp10.com",
+        "company": "TechCorp 10",
+        "subject": "Idea for TechCorp 10's Sales Growth, John",
+        "status": "sent",
+        "message_id": "mock_msg_1760898059_4483",
+        "sent_at": "2025-10-19 23:50:59",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 10_14",
+        "lead_name": "John Doe2",
+        "email": "john.doe2@techcorp10.com",
+        "company": "TechCorp 10",
+        "subject": "TechCorp 10's Funding + Sales Growth, John",
+        "status": "sent",
+        "message_id": "mock_msg_1760898059_6739",
+        "sent_at": "2025-10-19 23:50:59",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 10_15",
+        "lead_name": "John Doe3",
+        "email": "john.doe3@techcorp10.com",
+        "company": "TechCorp 10",
+        "subject": "Quick question about TechCorp 10's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898059_7584",
+        "sent_at": "2025-10-19 23:50:59",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 1_16",
+        "lead_name": "John Doe1",
+        "email": "john.doe1@techcorp1.com",
+        "company": "TechCorp 1",
+        "subject": "Scaling TechCorp 1 Sales: AI Workflow Automation",
+        "status": "sent",
+        "message_id": "mock_msg_1760898060_696",
+        "sent_at": "2025-10-19 23:51:00",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 1_17",
+        "lead_name": "John Doe2",
+        "email": "john.doe2@techcorp1.com",
+        "company": "TechCorp 1",
+        "subject": "John, Scaling Sales at TechCorp 1?",
+        "status": "failed",
+        "message_id": null,
+        "sent_at": "2025-10-19 23:51:00",
+        "error": "Mock failure: Simulated bounce"
+      },
+      {
+        "lead_id": "TechCorp 1_18",
+        "lead_name": "John Doe3",
+        "email": "john.doe3@techcorp1.com",
+        "company": "TechCorp 1",
+        "subject": "John, a thought on your sales hiring",
+        "status": "sent",
+        "message_id": "mock_msg_1760898060_101",
+        "sent_at": "2025-10-19 23:51:00",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 3_19",
+        "lead_name": "John Doe1",
+        "email": "john.doe1@techcorp3.com",
+        "company": "TechCorp 3",
+        "subject": "Quick question about TechCorp 3's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898061_429",
+        "sent_at": "2025-10-19 23:51:01",
+        "error": null
+      },
+      {
+        "lead_id": "TechCorp 3_20",
+        "lead_name": "John Doe2",
+        "email": "john.doe2@techcorp3.com",
+        "company": "TechCorp 3",
+        "subject": "Quick question about TechCorp 3's workflow",
+        "status": "sent",
+        "message_id": "mock_msg_1760898061_5078",
+        "sent_at": "2025-10-19 23:51:01",
+        "error": null
+      }
+    ],
+    "total_sent": 18,
+    "total_failed": 1,
+    "success_rate": 0.947,
+    "failed_emails": [
+      "john.doe2@techcorp1.com"
+    ],
+    "send_timestamp": "2025-10-19T23:51:01.469353",
+    "campaign_metadata": {
+      "batch_size": 50,
+      "send_delay": 0.3,
+      "dry_run": false
+    },
+    "_metadata": {
+      "agent_name": "OutreachExecutorAgent",
+      "agent_id": "graph_executor",
+      "execution_time": 5.440443515777588,
+      "timestamp": "2025-10-19T23:51:01.469410",
+      "success": true
+    }
+  },
+  "response_tracking": {
+    "campaign_id": "camp_20251019_235056_412a5ee6",
+    "responses": [],
+    "metrics": {
+      "open_rate": 0,
+      "click_rate": 0,
+      "reply_rate": 0,
+      "meeting_rate": 0,
+      "total_sent": 0,
+      "total_opened": 0,
+      "total_clicked": 0,
+      "total_replied": 0,
+      "total_meetings": 0
+    },
+    "lead_classification": {
+      "hot_leads": [],
+      "warm_leads": [],
+      "cold_leads": []
+    },
+    "hot_lead_count": 0,
+    "warm_lead_count": 0,
+    "cold_lead_count": 0,
+    "tracking_timestamp": "2025-10-19T23:51:01.485403",
+    "engagement_window_days": 14,
+    "_metadata": {
+      "agent_name": "ResponseTrackerAgent",
+      "agent_id": "graph_tracker",
+      "execution_time": 0.0019123554229736328,
+      "timestamp": "2025-10-19T23:51:01.485431",
+      "success": true
+    }
+  },
+  "feedback_trainer": {
+    "campaign_id": "unknown",
+    "recommendations": [
+      {
+        "category": "overall_strategy",
+        "recommendation": "Improve targeting and personalization. Current performance below industry benchmarks.",
+        "expected_impact": "20-30% increase in reply rate",
+        "priority": "high",
+        "data_source": "performance_metrics"
+      },
+      {
+        "category": "subject_line",
+        "recommendation": "Subject lines need optimization. Test more specific, value-driven subject lines.",
+        "expected_impact": "15% increase in open rate",
+        "priority": "high",
+        "data_source": "engagement_metrics"
+      },
+      {
+        "category": "email_content",
+        "recommendation": "Add clearer call-to-action and relevant links in email body.",
+        "expected_impact": "10% increase in click rate",
+        "priority": "medium",
+        "data_source": "engagement_metrics"
+      },
+      {
+        "category": "ai_insight",
+        "recommendation": "Improve subject lines",
+        "expected_impact": "Data-driven improvement",
+        "priority": "medium",
+        "data_source": "gemini_analysis"
+      },
+      {
+        "category": "ai_insight",
+        "recommendation": "Refine targeting",
+        "expected_impact": "Data-driven improvement",
+        "priority": "medium",
+        "data_source": "gemini_analysis"
+      },
+      {
+        "category": "icp_refinement",
+        "recommendation": "Focus on leads with characteristics similar to high-engagement segment.",
+        "expected_impact": "25% increase in qualified leads",
+        "priority": "high",
+        "data_source": "pattern_analysis"
+      }
+    ],
+    "total_recommendations": 6,
+    "performance_summary": {
+      "overall_assessment": {
+        "rating": "poor",
+        "message": "Campaign requires significant optimization",
+        "open_rate": 0,
+        "reply_rate": 0
+      },
+      "best_performing_segments": [],
+      "underperforming_segments": [],
+      "suggested_icp_changes": {
+        "industry": [
+          "Focus on industries with highest engagement"
+        ],
+        "company_size": "Prioritize mid-market (250-500 employees)",
+        "signals": "Emphasize recent_funding and rapid_growth signals"
+      },
+      "key_insights": []
+    },
+    "approval_status": "pending",
+    "auto_apply_eligible": false,
+    "sheet_status": {
+      "status": "success",
+      "rows_written": 6,
+      "sheet_id": "mock_sheet_id",
+      "timestamp": "2025-10-19T23:51:10.318694"
+    },
+    "analysis_timestamp": "2025-10-19T23:51:10.318993",
+    "sample_size": 0,
+    "statistical_confidence": "very_low",
+    "_metadata": {
+      "agent_name": "FeedbackTrainerAgent",
+      "agent_id": "graph_feedback",
+      "execution_time": 8.82047414779663,
+      "timestamp": "2025-10-19T23:51:10.319008",
+      "success": true
+    }
+  },
+  "current_step": "feedback_trainer",
+  "completed_steps": [
+    "prospect_search",
+    "enrichment",
+    "scoring",
+    "outreach_content",
+    "send",
+    "response_tracking",
+    "feedback_trainer"
+  ],
+  "errors": [],
+  "start_time": "2025-10-19T23:48:20.000449",
+  "end_time": "2025-10-19T23:51:10.325730"
+}

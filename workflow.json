@@ -1,0 +1,262 @@
+{
+  "workflow_name": "OutboundLeadGeneration",
+  "description": "End-to-end AI agent workflow to find, contact, and qualify leads using Gemini AI",
+  "steps": [
+    {
+      "id": "prospect_search",
+      "agent": "ProspectSearchAgent",
+      "inputs": {
+        "icp": {
+          "industry": ["SaaS", "Technology", "FinTech"],
+          "location": ["USA", "UK", "Canada"],
+          "employee_count": {
+            "min": 100,
+            "max": 1000
+          },
+          "revenue": {
+            "min": 20000000,
+            "max": 200000000
+          }
+        },
+        "signals": [
+          "recent_funding",
+          "hiring_for_sales",
+          "rapid_growth"
+        ]
+      },
+      "instructions": "Use Clay and Apollo APIs to search for company and contact data matching ICP. Filter by growth signals. Return structured leads with contact information.",
+      "tools": [
+        {
+          "name": "ClayAPI",
+          "config": {
+            "api_key": "{{CLAY_API_KEY}}",
+            "endpoint": "https://api.clay.com/search"
+          }
+        },
+        {
+          "name": "ApolloAPI",
+          "config": {
+            "api_key": "{{APOLLO_API_KEY}}",
+            "endpoint": "https://api.apollo.io/v1/mixed_search"
+          }
+        }
+      ],
+      "output_schema": {
+        "leads": [
+          {
+            "company": "string",
+            "contact_name": "string",
+            "email": "string",
+            "linkedin": "string",
+            "signal": "string",
+            "company_size": "integer",
+            "revenue": "integer"
+          }
+        ],
+        "total_found": "integer",
+        "search_timestamp": "string"
+      }
+    },
+    {
+      "id": "enrichment",
+      "agent": "DataEnrichmentAgent",
+      "inputs": {
+        "leads": "{{prospect_search.output.leads}}"
+      },
+      "instructions": "Enrich lead data using Clearbit API. Add company technologies, recent news, social profiles, and decision-maker roles. Return enriched lead profiles.",
+      "tools": [
+        {
+          "name": "Clearbit",
+          "config": {
+            "api_key": "{{CLEARBIT_KEY}}"
+          }
+        }
+      ],
+      "output_schema": {
+        "enriched_leads": [
+          {
+            "company": "string",
+            "contact": "string",
+            "role": "string",
+            "technologies": ["string"],
+            "recent_news": ["string"],
+            "social_profiles": {
+              "linkedin": "string",
+              "twitter": "string"
+            }
+          }
+        ],
+        "enrichment_timestamp": "string"
+      }
+    },
+    {
+      "id": "scoring",
+      "agent": "ScoringAgent",
+      "inputs": {
+        "enriched_leads": "{{enrichment.output.enriched_leads}}",
+        "scoring_criteria": "{{config.scoring}}"
+      },
+      "instructions": "Score leads based on ICP fit, growth signals, and engagement potential. Use configurable scoring weights. Rank leads from highest to lowest score.",
+      "tools": [],
+      "output_schema": {
+        "ranked_leads": [
+          {
+            "lead": "object",
+            "score": "float",
+            "score_breakdown": {
+              "icp_fit": "float",
+              "growth_signals": "float",
+              "engagement_potential": "float"
+            },
+            "rank": "integer"
+          }
+        ],
+        "avg_score": "float",
+        "scoring_timestamp": "string"
+      }
+    },
+    {
+      "id": "outreach_content",
+      "agent": "OutreachContentAgent",
+      "inputs": {
+        "ranked_leads": "{{scoring.output.ranked_leads}}",
+        "persona": "SDR",
+        "tone": "friendly_professional",
+        "value_proposition": "AI-powered workflow automation"
+      },
+      "instructions": "Generate personalized outreach messages using Gemini AI. Include prospect name, company, pain points, and value proposition. Create subject line and email body.",
+      "tools": [
+        {
+          "name": "GeminiAPI",
+          "config": {
+            "api_key": "{{GEMINI_API_KEY}}",
+            "model": "gemini-pro"
+          }
+        }
+      ],
+      "output_schema": {
+        "messages": [
+          {
+            "lead_id": "string",
+            "lead_name": "string",
+            "subject_line": "string",
+            "email_body": "string",
+            "personalization_score": "float"
+          }
+        ],
+        "generation_timestamp": "string"
+      }
+    },
+    {
+      "id": "send",
+      "agent": "OutreachExecutorAgent",
+      "inputs": {
+        "messages": "{{outreach_content.output.messages}}"
+      },
+      "instructions": "Send emails using SendGrid or Apollo API. Track delivery status, log sent emails, and handle bounces. Return campaign ID and delivery report.",
+      "tools": [
+        {
+          "name": "SendGrid",
+          "config": {
+            "api_key": "{{SENDGRID_API_KEY}}"
+          }
+        },
+        {
+          "name": "ApolloAPI",
+          "config": {
+            "api_key": "{{APOLLO_API_KEY}}"
+          }
+        }
+      ],
+      "output_schema": {
+        "sent_status": [
+          {
+            "lead_id": "string",
+            "email": "string",
+            "status": "string",
+            "sent_at": "string",
+            "message_id": "string"
+          }
+        ],
+        "campaign_id": "string",
+        "total_sent": "integer",
+        "total_failed": "integer"
+      }
+    },
+    {
+      "id": "response_tracking",
+      "agent": "ResponseTrackerAgent",
+      "inputs": {
+        "campaign_id": "{{send.output.campaign_id}}"
+      },
+      "instructions": "Monitor email responses, opens, clicks, and meeting bookings using Apollo API. Track engagement metrics and identify hot leads.",
+      "tools": [
+        {
+          "name": "ApolloAPI",
+          "config": {
+            "api_key": "{{APOLLO_API_KEY}}"
+          }
+        }
+      ],
+      "output_schema": {
+        "responses": [
+          {
+            "lead_id": "string",
+            "email": "string",
+            "opened": "boolean",
+            "clicked": "boolean",
+            "replied": "boolean",
+            "reply_sentiment": "string",
+            "meeting_booked": "boolean"
+          }
+        ],
+        "metrics": {
+          "open_rate": "float",
+          "click_rate": "float",
+          "reply_rate": "float",
+          "meeting_rate": "float"
+        }
+      }
+    },
+    {
+      "id": "feedback_trainer",
+      "agent": "FeedbackTrainerAgent",
+      "inputs": {
+        "responses": "{{response_tracking.output.responses}}",
+        "campaign_metrics": "{{response_tracking.output.metrics}}"
+      },
+      "instructions": "Analyze campaign performance. Identify patterns in successful vs unsuccessful outreach. Suggest ICP adjustments, messaging improvements, and timing optimizations. Write recommendations to Google Sheets for human approval.",
+      "tools": [
+        {
+          "name": "GoogleSheets",
+          "config": {
+            "sheet_id": "{{SHEET_ID}}"
+          }
+        },
+        {
+          "name": "GeminiAPI",
+          "config": {
+            "api_key": "{{GEMINI_API_KEY}}",
+            "model": "gemini-pro"
+          }
+        }
+      ],
+      "output_schema": {
+        "recommendations": [
+          {
+            "category": "string",
+            "recommendation": "string",
+            "expected_impact": "string",
+            "priority": "string"
+          }
+        ],
+        "performance_summary": {
+          "best_performing_segments": ["string"],
+          "underperforming_segments": ["string"],
+          "suggested_icp_changes": "object"
+        },
+        "approval_status": "pending"
+      }
+    }
+  ]
+}

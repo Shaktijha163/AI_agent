@@ -1,0 +1,106 @@
+# AI Agent Workflow Configuration
+
+# Ideal Customer Profile (ICP)
+icp:
+  industry:
+    - SaaS
+    - Technology
+    - FinTech
+    - AI/ML
+  location:
+    - USA
+    - UK
+    - Canada
+    - Germany
+  employee_count:
+    min: 100
+    max: 1000
+  revenue:
+    min: 20000000  # $20M
+    max: 200000000  # $200M
+  growth_signals:
+    - recent_funding
+    - hiring_for_sales
+    - rapid_growth
+    - new_product_launch
+
+# Lead Scoring Configuration
+scoring:
+  weights:
+    industry_match: 0.25
+    company_size: 0.20
+    revenue_range: 0.20
+    growth_signals: 0.25
+    technology_stack: 0.10
+  min_score_threshold: 0.60
+  high_priority_threshold: 0.80
+
+# Outreach Configuration
+outreach:
+  persona: "SDR"
+  tone: "friendly_professional"
+  value_proposition: "AI-powered workflow automation that saves 20+ hours per week"
+  email_settings:
+    max_length: 200
+    include_ps: true
+    include_meeting_link: true
+  
+  # Subject line templates
+  subject_templates:
+    - "Quick question about {{company_name}}'s {{pain_point}}"
+    - "Saw your {{growth_signal}} - impressive!"
+    - "{{contact_name}}, thoughts on automating {{process}}?"
+  
+  # Personalization variables
+  personalization:
+    use_company_news: true
+    use_linkedin_activity: true
+    use_technology_stack: true
+    use_recent_hires: true
+
+# Campaign Settings
+campaign:
+  batch_size: 50
+  daily_send_limit: 100
+  time_between_sends: 300  # seconds
+  follow_up_enabled: true
+  follow_up_days: [3, 7]
+  max_follow_ups: 2
+
+# Response Tracking
+tracking:
+  track_opens: true
+  track_clicks: true
+  track_replies: true
+  engagement_window_days: 14
+  hot_lead_criteria:
+    opened: true
+    clicked: true
+    min_open_count: 2
+
+# Feedback & Learning
+feedback:
+  analysis_frequency: "daily"
+  min_sample_size: 20
+  auto_apply_threshold: 0.85  # Only auto-apply if confidence > 85%
+  approval_required: true
+  
+  improvement_areas:
+    - subject_line_performance
+    - messaging_tone
+    - icp_refinement
+    - send_timing
+    - value_proposition
+
+# API Rate Limits
+rate_limits:
+  clay:
+    requests_per_minute: 60
+  apollo:
+    requests_per_minute: 100
+  clearbit:
+    requests_per_minute: 600
+  gemini:
+    requests_per_minute: 60
+  sendgrid:
+    requests_per_minute: 100
